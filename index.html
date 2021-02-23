@@ -5,13 +5,15 @@
   <title>Reservia</title>
   <link rel="stylesheet" href="style.css">
   <script src="https://kit.fontawesome.com/56c0491e5f.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
   <header>
-<div class="logo"><img src="images/logo/Reservia.svg" alt="Logo de Reservia"></div>
 <nav class="index">
-  <ul>
-    <li><a href="#">Hébergements</a></li>
+  <div class="logo"><img src="images/logo/Reservia.svg" alt="Logo de Reservia"></div>
+  <ul class="links">
+    <li><a class="hebergements" href="#">Hébergements</a></li>
     <li><a href="#">Activités</a></li>
     <li><a class="inscription" href="#">S'inscrire</a></li>
   </ul>
@@ -21,10 +23,11 @@ En plein centre ville ou en pleine nature</div>
 <div class="barrerecherche">
   <i class="fas fa-map-marker-alt"></i>
   <input type="search" placeholder="Marseille, France">
-  <button>Rechercher</button>
+  <button class="searchbtn">Rechercher</button>
   </div>
   <div class="filters">
-    <p>Filtres</p>
+    <h2>Filtres</h2>
+    <div class="filtersbtn">
     <div class="eco">
       <i class="fas fa-money-bill-wave"></i>
       <a href="#">Économie</a>
@@ -40,6 +43,7 @@ En plein centre ville ou en pleine nature</div>
     <div class="animals">
       <i class="fas fa-dog"></i>
       <a href="#">Animaux autorisés</a>
+    </div>
     </div>
     </div>
    </header>

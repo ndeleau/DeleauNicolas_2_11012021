@@ -1,7 +1,7 @@
 /* HEADER */
 body {
     font-family: 'Raleway', sans-serif;
-    font-size: 1.2em;
+    font-size: 18px;
     margin-left: 35px;
     margin-right: 35px;
     letter-spacing: normal;
@@ -20,6 +20,13 @@ body {
 
 h1 {
     font-weight: 1500;
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+}
+
+h2 {
+    font-size: 12px;
     margin: 0;
     padding: 0;
 }
@@ -58,6 +65,7 @@ input {
     line-height: 50px;
     text-align: center;
     font-size: 1.2rem;
+    color: black;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
 }
@@ -70,10 +78,23 @@ input {
 .inscription {
     color: #0065FC;
     font-weight: bolder;
+    margin: 20px 20px 20px 20px;
+    
 }
 
 .hebergements {
     color: #0065FC;
+    margin: 20px 20px 20px 20px;
+    border-top: solid #0065FC;
+    padding-top: 20px;
+}
+
+.fas {
+    color:#0065FC;
+}
+
+.far {
+    color:#F2F2F2;
 }
 
 a {
@@ -83,7 +104,34 @@ text-decoration: none;
 .links {
     float: right;
     list-style: none;
-    display: inline;
+    display: flex;
+    align-content:space-between;
+
+ }
+
+ .fa-money-bill-wave {
+     margin-left: -30px;
+     margin-top: 10px;
+ }
+
+ .fa-child {
+    
+        margin-left: -70px;
+        margin-top: 10px;
+ }
+
+ .fa-heart {
+    margin-left: -30px;
+    margin-top: 10px;
+ }
+
+ .fa-dog {
+    margin-left: -30px;
+    margin-top: 10px;
+ }
+
+ .activies {
+     margin: 20px 20px 20px 20px;
  }
 
 .index {
@@ -95,36 +143,106 @@ text-decoration: none;
 .filters {
     margin-top: 30px;
     display: flex;
-    align-items: center;
 }
+
 
 .filtersbtn {
+    display: flex;
+    justify-content: flex-start;
     margin-left: 25px;
-  border: 1px solid #d9d9d9;
-  border-radius: 30px;
-  width: 185px;
-  height: 50px;
-  text-decoration: none;
-    color: #000;
-    margin-left: 10px;
-    font-weight: bold;
+}
+.eco {
+
+    margin-left: 25px;
+    border: 1px solid #d9d9d9;
+    border-radius: 30px;
+    width: 185px;
+    height: 50px;
+    text-decoration: none;
+      color: #000;
+      margin-left: 10px;
+      font-weight: bold;
+      display:flex;
+      justify-content: center;
+
 }
 
-.filtersbtn:hover{
+.romantic {
+    margin-left: 25px;
+    border: 1px solid #d9d9d9;
+    border-radius: 30px;
+    width: 185px;
+    height: 50px;
+    text-decoration: none;
+      color: #000;
+      margin-left: 10px;
+      font-weight: bold;
+      display:flex;
+      justify-content: center;
+      text-align: center;
+}
+
+.famille {
+    margin-left: 25px;
+    border: 1px solid #d9d9d9;
+    border-radius: 30px;
+    width: 185px;
+    height: 50px;
+    text-decoration: none;
+      color: #000;
+      margin-left: 10px;
+      font-weight: bold;
+      display:flex;
+      justify-content: center;
+    
+}
+
+.romantic {
+    margin-left: 25px;
+    border: 1px solid #d9d9d9;
+    border-radius: 30px;
+    width: 185px;
+    height: 50px;
+    text-decoration: none;
+      color: #000;
+      margin-left: 10px;
+      font-weight: bold;
+      display:flex;
+      justify-content: center;
+
+}
+
+.animals {
+    margin-left: 25px;
+    border: 1px solid #d9d9d9;
+    border-radius: 30px;
+    width: 250px;
+    height: 50px;
+    text-decoration: none;
+      color: #000;
+      margin-left: 10px;
+      font-weight: bold;
+      display:flex;
+      justify-content: center;
+      text-align: center;
+}
+.animals:hover, .eco:hover, .famille:hover, .romantic:hover{
     transition: 0.5s;
     background: #deebff;
     border: none;
 }
 
-.fa {
-background-color: #deebff;
+.filtersbtn .fa {
+background-color: transparent;
 height: 50px;
 width: 50px;
 border-radius: 50%;
 text-align: center;
 line-height: 50px;
-color: var(--bluecolor);
+color: #0065FC;
 }
+
+
 
 .filters h2 {
     font-style: bold;
@@ -144,7 +262,6 @@ color: var(--bluecolor);
   margin-right: 25px;
   padding: 25px;
   display: flex;
-  align-content: center;
   justify-content: stretch;
   margin-left: -15px;
   background-color: #F2F2F2;
@@ -153,19 +270,26 @@ color: var(--bluecolor);
   margin: 0;
   padding: 25px;
   border-radius: 15px;
+  flex-wrap: wrap;
 }
+
 
 .locationblock {
     margin-top: 25px;
   height: 210px;
   width: 245px;
   margin-left: 25px;
+  padding-left: 15px;
   background-color: #fff;
   border-radius: 15px;
   box-shadow: 1.5px 1.5px 1.5px 1.5px #F2F2F2;
+  font-size: 12px;
   
 }
 
+.price {
+    font-weight: bold;
+}
 .locationblock img{
     height: 115px;
   width: 230px;
@@ -174,6 +298,12 @@ color: var(--bluecolor);
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   
+}
+
+.cityblock h1 {
+    margin: 0;
+    padding: 0;
+    float:left;
 }
 
 /* SECTION */

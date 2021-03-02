@@ -107,6 +107,14 @@ text-decoration: none;
 
 }
 
+.filters a{
+    color:black;
+}
+
+.locationblock a{
+    color:black;
+}
+
 a:visited {
     color: black;
 }

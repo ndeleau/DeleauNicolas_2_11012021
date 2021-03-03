@@ -2,8 +2,8 @@
 body {
     font-family: 'Raleway', sans-serif;
     font-size: 14px;
-    margin-left: 35px;
-    margin-right: 35px;
+    margin-left: 150px;
+    margin-right: 150px;
     letter-spacing: normal;
     font-weight:lighter;
 }
@@ -15,7 +15,8 @@ body {
   }
 
 .intro {
-    font-size: 15px
+    font-size: 15px;
+    margin-top: 30px;
    
 }
 
@@ -82,7 +83,7 @@ input:focus {
 
 .inscription {
     color: #0065FC;
-    font-weight: bolder;
+    font-weight: 1000;
     margin: 20px 20px 20px 20px;
     
 }
@@ -115,15 +116,12 @@ text-decoration: none;
     color:black;
 }
 
-a:visited {
-    color: black;
-}
-
 .links {
     float: right;
     list-style: none;
     display: flex;
     align-content:space-between;
+    font-size: 20px;
 
  }
 
@@ -268,17 +266,27 @@ color: #0065FC;
 }
 
 .infos {
-    display: flex;
     align-items: center;
     margin-top: 60px;
+    margin-bottom: 30px;
   }
+
+.infos .fas {
+    margin-right: 10px;
+    font-style: normal;
+}
+
+.infos i {
+    font-style: normal;
+}
 /* HEADER */
 /* SECTION */
 
 .cityblock {
     border-radius: 20px;
     background-color: #F2F2F2;
-    width: 900px;
+    width: 855px;
+    height: 600px;
 }
 
 .locationblock {
@@ -300,7 +308,7 @@ color: #0065FC;
 .locationlinetwo {
     display: flex;
     justify-content: space-between;
-    padding-top: 50px;
+    padding-top: 30px;
     width: 100px;
     margin-left: 25px;
 }
@@ -313,6 +321,11 @@ color: #0065FC;
  margin: 0px 5px 5px 5px;
  padding: 5px 5px 5px 5px;
  line-height: 30%;
+ color: black;
+}
+
+.locadetails a:visited {
+    color:black;
 }
 .locationblock img {
     height: 115px;
@@ -342,10 +355,15 @@ font-size: 10px;
 }
 
 .more {
-    font-weight:700;
-    padding-top: 20px;
+    font-weight:800;
+    padding-top: 10px;
     color:black;
-    padding-left: 20px;
+    padding-left: 40px;
+    font-size: 20px;
+}
+
+.more a:visited {
+    color: black;
 }
 
 /* SECTION */
@@ -354,12 +372,15 @@ font-size: 10px;
 .popular {
     border-radius:20px;
     background-color:#F2F2F2;
-    width: 400px;
+    width: 370px;
+    height: 600px;
+    margin-left: 880px;
+    margin-top: -600px;
+    
 
 }
 
 .popularcolumn {
-    display:flex;
 }
 
 .populardetails {
@@ -382,8 +403,36 @@ font-size: 10px;
     width:300px;
     margin:50px;
 }
+
+.popular h1 {
+    font-weight: 900px;;
+    padding-left: 40px;
+    padding-top: 25px;
+    font-size: 1.5em;
+}
+
+.popular .fas {
+
+}
+
+.fa-chart-line {
+
+}
 /* ASIDE */
 /* ACTIVITIES */
+
+.activities {
+    margin-top: 50px;
+}
+
+.activities h1 {
+    font-size:20px;
+}
+
+.activities img {
+    height: 115px;
+  width: 115px;
+}
 /* ACTIVITIES */
 /* FOOTER */
 /* FOOTER */

@@ -126,24 +126,56 @@ text-decoration: none;
  }
 
  .fa-money-bill-wave {
-     margin-left: -30px;
-     margin-top: 10px;
+   background-color:#DEEBFF;
+   border-radius:50px;
+   padding:10px;
+   font-size:16px;
+ }
+
+ .eco a {
+     margin: 0 10px;
+     padding-left: 15px;
+     
+ }
+
+ .famille a {
+     margin: 0 10px;
+     padding-left: 30px;
+     
+    
+ }
+
+ .animals a {
+     margin: 0 10px;
+     
+
+ }
+
+ .romantic a {
+    margin: 0 10px;
+    padding-left: 15px;
  }
 
  .fa-child {
     
-        margin-left: -70px;
-        margin-top: 10px;
+    background-color:#DEEBFF;
+    border-radius:50px;
+    padding:10px;
+    font-size:16px;
  }
 
  .fa-heart {
-    margin-left: -30px;
-    margin-top: 10px;
+    background-color:#DEEBFF;
+   border-radius:50px;
+   padding:10px;
+   font-size:16px;
  }
 
  .fa-dog {
-    margin-left: -30px;
-    margin-top: 10px;
+    background-color:#DEEBFF;
+   border-radius:50px;
+   padding:10px;
+   font-size:16px;
  }
 
  .activies {
@@ -159,6 +191,7 @@ text-decoration: none;
 .filters {
     margin-top: 30px;
     display: flex;
+    align-items: center;
 }
 
 
@@ -173,29 +206,13 @@ text-decoration: none;
     border: 1px solid #d9d9d9;
     border-radius: 30px;
     width: 185px;
-    height: 50px;
     text-decoration: none;
       color: #000;
       margin-left: 10px;
       font-weight: bold;
-      display:flex;
-      justify-content: center;
+      padding:0;
+      
 
-}
-
-.romantic {
-    margin-left: 25px;
-    border: 1px solid #d9d9d9;
-    border-radius: 30px;
-    width: 185px;
-    height: 50px;
-    text-decoration: none;
-      color: #000;
-      margin-left: 10px;
-      font-weight: bold;
-      display:flex;
-      justify-content: center;
-      text-align: center;
 }
 
 .famille {
@@ -203,13 +220,11 @@ text-decoration: none;
     border: 1px solid #d9d9d9;
     border-radius: 30px;
     width: 185px;
-    height: 50px;
     text-decoration: none;
       color: #000;
       margin-left: 10px;
       font-weight: bold;
-      display:flex;
-      justify-content: center;
+      padding:0;
     
 }
 
@@ -218,13 +233,11 @@ text-decoration: none;
     border: 1px solid #d9d9d9;
     border-radius: 30px;
     width: 185px;
-    height: 50px;
     text-decoration: none;
       color: #000;
       margin-left: 10px;
       font-weight: bold;
-      display:flex;
-      justify-content: center;
+      padding:0;
 
 }
 
@@ -232,15 +245,12 @@ text-decoration: none;
     margin-left: 25px;
     border: 1px solid #d9d9d9;
     border-radius: 30px;
-    width: 250px;
-    height: 50px;
+    width: 185px;
     text-decoration: none;
       color: #000;
       margin-left: 10px;
       font-weight: bold;
-      display:flex;
-      justify-content: center;
-      text-align: center;
+      padding:0;
 }
 .animals:hover, .eco:hover, .famille:hover, .romantic:hover{
     transition: 0.5s;
@@ -274,6 +284,12 @@ color: #0065FC;
 .infos .fas {
     margin-right: 10px;
     font-style: normal;
+    border-radius: 50%;
+    border: solid thin lightgray;
+    padding: 5px;
+    width: 10px;
+    text-align:center;
+
 }
 
 .infos i {
@@ -294,7 +310,7 @@ color: #0065FC;
     background-color: white;
     margin: 10px;
     height: 200px;
-    box-shadow: 10px 5px 5px rgb(168, 168, 168);
+    box-shadow: 2px 1px 10px rgb(199, 199, 199);
 }
 .locationlineone {
   display: flex;
@@ -350,6 +366,14 @@ color: #0065FC;
     font-size: 1.5em;
 }
 
+.cityblock a {
+    color:black;
+}
+
+.cityblock a:visited {
+    color:black;
+}
+
 .starsicons {
 font-size: 10px;
 }
@@ -372,22 +396,26 @@ font-size: 10px;
 .popular {
     border-radius:20px;
     background-color:#F2F2F2;
-    width: 370px;
+    width: 350px;
     height: 600px;
     margin-left: 880px;
     margin-top: -600px;
-    
-
 }
 
 .popularcolumn {
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
 }
 
 .populardetails {
-    display:flex;
+width:max-content;
+padding-left: 20px;
+padding-top: 5px;
 }
+
 .popular img {
-    height: 115px;
+    height: 130px;
   width: 115px;
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
@@ -395,29 +423,40 @@ font-size: 10px;
 }
 
 .popularblock {
-    border-radius: 20px;
-    display:flex;
-    flex-direction: column;
-    justify-content: space between;
-    background-color:white;
-    width:300px;
-    margin:50px;
+display:flex;
+align-content:center;
+margin: 15px 20px;
+padding: 5px;
+width:290px;
+border-radius : 15px;
+background-color: white;
+box-shadow: 2px 1px 10px rgb(199, 199, 199);
 }
 
 .popular h1 {
     font-weight: 900px;;
-    padding-left: 40px;
-    padding-top: 25px;
     font-size: 1.5em;
+    padding-right: 0px;
+    
 }
 
-.popular .fas {
-
+.poputitle {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    width:270px;
+    padding: 25px 0px 20px 20px;
 }
 
-.fa-chart-line {
-
+.popular .fa-chart-line {
+color:black;
+font-size:20px;
 }
+
+.popularblock .starsicons {
+    padding-top:20px;
+}
+
 /* ASIDE */
 /* ACTIVITIES */
 

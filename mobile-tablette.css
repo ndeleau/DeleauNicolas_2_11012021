@@ -5,8 +5,90 @@
 @media screen and (min-width: 1025px) {
 /* Desktop */
 
+
 }
 
 @media screen and (max-width: 600px) {
     /* Mobile */
+
+    body {
+        width:auto;
+        padding:10px;
+        margin:0;
+        font-weight:light;
+    }
+
+
+    .barrerecherche {
+        margin-left:auto;
+        margin-right:auto;
+        
+    }
+
+    .filtersbtn {
+        display:flex;
+        flex-wrap:wrap;
+        width:auto;
+        position: absolute;
+        margin-top: 100px;
+        margin-left: 0px;
+    }
+
+    .filters {
+        width:auto;
+    }
+
+    .links {
+        width:auto;
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+        float:none;
+        margin-left:0px;
+        padding:20px;
+        clear: both;
+    }
+
+
+    .activitieslink {
+        border-bottom:solid #f2f2f2;
+        padding: 10px 20px 10px 20px;
+        width:auto;
+        color: black;
+    
+    }
+
+    .activitieslink:visited {
+        color: black;
+    }
+
+    .intro {
+        width:auto;
+        font-size:1.2em;
+        padding-left:20px;
+        padding-right:20px;
+        margin-top: -10px;
+    }
+
+    .listelogements {
+        margin-top: 130px;
+    }
+    .intro h1 {
+        font-size:1.5em;
+    }
+
+    header {
+        width:auto;
+    }
+.inscription {
+    
+    float:right;
+}
+
+  .link_active {
+    border-top: none;
+    border-bottom: solid #0065fc;
+    width:auto;
+  }
+
 }

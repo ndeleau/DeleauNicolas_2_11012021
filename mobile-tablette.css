@@ -1,28 +1,45 @@
-@media screen and (min-width: 600px) and (max-width: 1024px) {
+@media screen and (min-width: 428px) and (max-width: 1024px) {
     /* Tablettes */
 
 }
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1024px) {
 /* Desktop */
 
+.fa-search {
+    display:none;
+}
 
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 427px) {
     /* Mobile */
 
     body {
         width:auto;
-        padding:10px;
+        padding:0px;
         margin:0;
         font-weight:light;
     }
 
 
     .barrerecherche {
-        margin-left:auto;
-        margin-right:auto;
+        margin-left:5px;
+        margin-right:5px;
         
+    }
+
+    .searchword {
+        display:none;
+    }
+
+    .fa-search {
+        color: white;
+    }
+
+    .searchbtn {
+        width:50px;
+        height:50px;
+        border-radius:15px;
     }
 
     .filtersbtn {
@@ -38,6 +55,10 @@
         width:auto;
     }
 
+    .filters h2 {
+        padding-left:10px;
+    }
+
     .links {
         width:auto;
         display:flex;
@@ -45,21 +66,8 @@
         align-items:center;
         float:none;
         margin-left:0px;
-        padding:20px;
+        padding:0px;
         clear: both;
-    }
-
-
-    .activitieslink {
-        border-bottom:solid #f2f2f2;
-        padding: 10px 20px 10px 20px;
-        width:auto;
-        color: black;
-    
-    }
-
-    .activitieslink:visited {
-        color: black;
     }
 
     .intro {
@@ -89,6 +97,111 @@
     border-top: none;
     border-bottom: solid #0065fc;
     width:auto;
+    padding:0;
+    text-align:center;
+    width:100%;
   }
 
+  .activitieslink {
+      padding:0;
+      text-align:center;
+      border-bottom:solid #f2f2f2;
+      width:100%;
+  }
+
+  .listelogements {
+      margin-top:500px;
+  }
+
+  .popular {
+      display:flex;
+      flex-direction:column;
+      position:absolute;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    border-radius:0px;
+    margin-top: -480px;
+
+  }
+
+  .popularcolumn {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .popularblock {
+      width: 350px;
+  }
+
+  .cityblock {
+    position: absolute;
+    margin-top: 130px;
+    background-color:white;
+    width:auto;
+  }
+
+  .locationlineone {
+      display:flex;
+    flex-direction: column;
+    width:auto;
+  }
+
+  .locationlinetwo {
+    display:flex;
+    flex-direction: column;
+    width:auto;
+    padding-top:0px;
+  }
+
+  .locationblock {
+      width: 365px;
+      margin:0px;
+      margin-bottom:10px;
+  }
+
+  .locationblock img {
+      width: 350px;
+  }
+  .infos {
+    margin-top: 210px;
+    padding-left: 10px;
+  }
+
+  .activities {
+      margin-top:2050px;
+
+  }
+
+  .activcolonnes {
+    display: flex;
+    flex-direction:column;
+    width:350px;
+    margin-left:auto;
+    margin-right:auto;
+  }
+
+  .minactivities, .mainactivity, .frioul,
+  .pomegues, .act1 {
+      margin-bottom:15px;
+  }
+
+  .activities img {
+      width: 350px;
+      height: 100px;
+  }
+
+  .minactivity img {
+    width: 280px;
+    height: 100px;
+  }
+
+  .footerlinks {
+      display:flex;
+      flex-direction:column;
+  }
+
+  .apropos, .noshebergements, .assistance {
+      margin-bottom:20px;
+  }
 }

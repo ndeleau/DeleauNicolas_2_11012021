@@ -1,8 +1,184 @@
-@media screen and (min-width: 428px) and (max-width: 1024px) {
+@media screen and (min-width: 428px) and (max-width: 768px) {
     /* Tablettes */
+    
+    body {
+        padding:0;
+        margin:0;
+    }
+
+    .filtersbtn {
+        display:flex;
+        flex-wrap:wrap;
+        width:auto;
+    }
+
+
+    .animals {
+        width: 220px;
+    }
+    
+    .romantic, .famille, .eco, .animals {
+        font-size: 1.2em;
+
+    }
+
+    .filters {
+        width:auto;
+    }
+
+    .intro {
+        width:auto;
+        font-size:1.2em;
+        padding-left:20px;
+        padding-right:20px;
+        margin-top: -10px;
+    }
+
+    .listelogements {
+        margin-top: 130px;
+    }
+    .intro h1 {
+        font-size:1.5em;
+    }
+
+    header {
+        width:auto;
+    }
+
+  .listelogements {
+      margin-top:500px;
+  }
+
+  .popular {
+      display:flex;
+      flex-direction:column;
+      position:absolute;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    border-radius:0px;
+    margin-top: -480px;
+
+  }
+
+  .populardetails h2 {
+    font-size: 1.3em;
+  }
+
+  .popularcolumn {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .popularblock {
+      width: 400px;
+  }
+
+  .popular h1 {
+      font-size: 1.5em;
+  }
+
+  .poputitle {
+      width:90%;
+  }
+
+
+  .cityblock {
+    position: absolute;
+    margin-top: 130px;
+    background-color:white;
+    width:auto;
+  }
+
+  .cityblock h1 {
+      font-size:1.5em;
+      margin-left: -20px;
+  }
+
+  .locationlineone {
+      display:flex;
+    flex-direction: column;
+    
+      margin-left:120px;
+    
+  }
+
+  .locationlinetwo {
+    display:flex;
+    flex-direction: column;
+    padding-top:0px;
+      margin-left:120px;
+  }
+
+  .locationblock {
+      width: 430px;
+      margin:0px;
+      margin-bottom:15px;
+      
+  }
+
+  .locationblock img {
+      width: 415px;
+  }
+  .infos {
+    margin-top: 120px;
+    padding-left: 10px;
+    font-size:1.2em;
+  }
+
+  .activities {
+      margin-top:2080px;
+
+  }
+
+  .activcolonnes {
+    display: flex;
+    flex-direction:column;
+    width:430px;
+    margin-left:auto;
+    margin-right:auto;
+  }
+
+  .minactivities, .mainactivity, .frioul,
+  .pomegues, .act1 {
+      margin-bottom:15px;
+  }
+
+  .activities h2 {
+      font-size:1.2em;
+  }
+
+  .activities h1 {
+      font-size:1.5em;
+      margin-left:15px;
+  }
+  .activities img {
+    width:430px;
+      height: 100px;
+  }
+
+  .minactivity img {
+    width: 280px;
+    height: 100px;
+  }
+
+  .footerlinks {
+      display:flex;
+      flex-direction:column;
+      width:auto;
+  }
+
+  .apropos, .noshebergements, .assistance {
+      margin-bottom:30px;
+      font-size:1.3em;
+  }
+
+    
+
+    
 
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 768px) {
 /* Desktop */
 
 .fa-search {
@@ -21,10 +197,14 @@
         font-weight:light;
     }
 
+    .logo {
+        margin-left:5px;
+    }
 
     .barrerecherche {
-        margin-left:5px;
-        margin-right:5px;
+        white-space: nowrap;
+        margin-left:15px;
+
         
     }
 
@@ -49,6 +229,15 @@
         position: absolute;
         margin-top: 100px;
         margin-left: 0px;
+    }
+
+    .animals {
+        width: 220px;
+    }
+    
+    .romantic, .famille, .eco, .animals {
+        font-size: 1.2em;
+
     }
 
     .filters {
@@ -131,8 +320,17 @@
   }
 
   .popularblock {
-      width: 350px;
+      width: 290px;
   }
+
+  .popular h1 {
+      font-size: 1.5em;
+  }
+
+  .poputitle {
+      width:90%;
+  }
+
 
   .cityblock {
     position: absolute;
@@ -141,10 +339,18 @@
     width:auto;
   }
 
+  .cityblock h1 {
+      font-size:1.5em;
+      margin-left: -20px;
+  }
+
   .locationlineone {
       display:flex;
     flex-direction: column;
     width:auto;
+    margin-right:auto;
+      margin-left:auto;
+    
   }
 
   .locationlinetwo {
@@ -152,24 +358,28 @@
     flex-direction: column;
     width:auto;
     padding-top:0px;
+    margin-right:auto;
+      margin-left:auto;
   }
 
   .locationblock {
-      width: 365px;
+      width: 350px;
       margin:0px;
-      margin-bottom:10px;
+      margin-bottom:15px;
+      
   }
 
   .locationblock img {
-      width: 350px;
+      width: 335px;
   }
   .infos {
     margin-top: 210px;
     padding-left: 10px;
+    font-size:1.2em;
   }
 
   .activities {
-      margin-top:2050px;
+      margin-top:2080px;
 
   }
 
@@ -186,6 +396,14 @@
       margin-bottom:15px;
   }
 
+  .activities h2 {
+      font-size:1.2em;
+  }
+
+  .activities h1 {
+      font-size:1.5em;
+      margin-left:15px;
+  }
   .activities img {
       width: 350px;
       height: 100px;
@@ -199,9 +417,11 @@
   .footerlinks {
       display:flex;
       flex-direction:column;
+      width:auto;
   }
 
   .apropos, .noshebergements, .assistance {
-      margin-bottom:20px;
+      margin-bottom:30px;
+      font-size:1.3em;
   }
 }

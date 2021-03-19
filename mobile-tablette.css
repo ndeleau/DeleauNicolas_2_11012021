@@ -1,64 +1,64 @@
 @media screen and (min-width: 428px) and (max-width: 768px) {
-    /* Tablettes */
-    
-    body {
-        padding:0;
-        margin:0;
-    }
+  /* Tablettes */
 
-    .filtersbtn {
-        display:flex;
-        flex-wrap:wrap;
-        width:auto;
-    }
+  body {
+    padding: 0;
+    margin: 0;
+  }
 
+  .filtersbtn {
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+  }
 
-    .animals {
-        width: 220px;
-    }
-    
-    .romantic, .famille, .eco, .animals {
-        font-size: 1.2em;
+  .animals {
+    width: 220px;
+  }
 
-    }
+  .romantic,
+  .famille,
+  .eco,
+  .animals {
+    font-size: 1.2em;
+  }
 
-    .filters {
-        width:auto;
-    }
+  .filters {
+    width: auto;
+  }
 
-    .intro {
-        width:auto;
-        font-size:1.2em;
-        padding-left:20px;
-        padding-right:20px;
-        margin-top: -10px;
-    }
-
-    .listelogements {
-        margin-top: 130px;
-    }
-    .intro h1 {
-        font-size:1.5em;
-    }
-
-    header {
-        width:auto;
-    }
+  .intro {
+    width: auto;
+    font-size: 1.2em;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: -10px;
+  }
 
   .listelogements {
-      margin-top:500px;
+    margin-top: 130px;
+  }
+  .intro h1 {
+    font-size: 1.5em;
+  }
+
+  header {
+    width: auto;
+  }
+
+  .listelogements {
+    margin-top: 500px;
   }
 
   .popular {
-      display:flex;
-      flex-direction:column;
-      position:absolute;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-    border-radius:0px;
+    border-radius: 0px;
     margin-top: -480px;
-
   }
 
   .populardetails h2 {
@@ -71,90 +71,92 @@
   }
 
   .popularblock {
-      width: 400px;
+    width: 400px;
   }
 
   .popular h1 {
-      font-size: 1.5em;
+    font-size: 1.5em;
   }
 
   .poputitle {
-      width:90%;
+    width: 90%;
   }
-
 
   .cityblock {
     position: absolute;
     margin-top: 130px;
-    background-color:white;
-    width:auto;
+    background-color: white;
+    width: auto;
   }
 
   .cityblock h1 {
-      font-size:1.5em;
-      margin-left: -20px;
+    font-size: 1.5em;
+    margin-left: -20px;
   }
 
   .locationlineone {
-      display:flex;
+    display: flex;
     flex-direction: column;
-    
-      margin-left:120px;
-    
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
   }
 
   .locationlinetwo {
-    display:flex;
+    display: flex;
     flex-direction: column;
-    padding-top:0px;
-      margin-left:120px;
+    padding-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
   }
 
   .locationblock {
-      width: 430px;
-      margin:0px;
-      margin-bottom:15px;
-      
+    margin: 0px;
+    margin-bottom: 15px;
   }
 
   .locationblock img {
-      width: 415px;
+    width: 97%;
   }
   .infos {
     margin-top: 120px;
     padding-left: 10px;
-    font-size:1.2em;
+    font-size: 1.2em;
   }
 
   .activities {
-      margin-top:2080px;
-
+    margin-top: 2080px;
   }
 
   .activcolonnes {
     display: flex;
-    flex-direction:column;
-    width:430px;
-    margin-left:auto;
-    margin-right:auto;
+    flex-direction: column;
+    width: 430px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
-  .minactivities, .mainactivity, .frioul,
-  .pomegues, .act1 {
-      margin-bottom:15px;
+  .minactivities,
+  .mainactivity,
+  .frioul,
+  .pomegues,
+  .act1 {
+    margin-bottom: 15px;
   }
 
   .activities h2 {
-      font-size:1.2em;
+    font-size: 1.2em;
   }
 
   .activities h1 {
-      font-size:1.5em;
-      margin-left:15px;
+    font-size: 1.5em;
+    margin-left: 15px;
   }
   .activities img {
-    width:430px;
-      height: 100px;
+    width: 430px;
+    height: 100px;
   }
 
   .minactivity img {
@@ -163,155 +165,149 @@
   }
 
   .footerlinks {
-      display:flex;
-      flex-direction:column;
-      width:auto;
+    display: flex;
+    flex-direction: column;
+    width: auto;
   }
 
-  .apropos, .noshebergements, .assistance {
-      margin-bottom:30px;
-      font-size:1.3em;
+  .apropos,
+  .noshebergements,
+  .assistance {
+    margin-bottom: 30px;
+    font-size: 1.3em;
   }
-
-    
-
-    
-
 }
 @media screen and (min-width: 768px) {
-/* Desktop */
+  /* Desktop */
 
-.fa-search {
-    display:none;
-}
-
+  .fa-search {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 427px) {
-    /* Mobile */
+  /* Mobile */
 
-    body {
-        width:auto;
-        padding:0px;
-        margin:0;
-        font-weight:light;
-    }
+  body {
+    width: auto;
+    padding: 0px;
+    margin: 0;
+    font-weight: light;
+  }
 
-    .logo {
-        margin-left:5px;
-    }
+  .logo {
+    margin-left: 5px;
+  }
 
-    .barrerecherche {
-        white-space: nowrap;
-        margin-left:15px;
+  .barrerecherche {
+    white-space: nowrap;
+    margin-left: 15px;
+  }
 
-        
-    }
+  .searchword {
+    display: none;
+  }
 
-    .searchword {
-        display:none;
-    }
+  .fa-search {
+    color: white;
+  }
 
-    .fa-search {
-        color: white;
-    }
+  .searchbtn {
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+  }
 
-    .searchbtn {
-        width:50px;
-        height:50px;
-        border-radius:15px;
-    }
+  .filtersbtn {
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 0px;
+  }
 
-    .filtersbtn {
-        display:flex;
-        flex-wrap:wrap;
-        width:auto;
-        position: absolute;
-        margin-top: 100px;
-        margin-left: 0px;
-    }
+  .animals {
+    width: 220px;
+  }
 
-    .animals {
-        width: 220px;
-    }
-    
-    .romantic, .famille, .eco, .animals {
-        font-size: 1.2em;
+  .romantic,
+  .famille,
+  .eco,
+  .animals {
+    font-size: 1.2em;
+  }
 
-    }
+  .filters {
+    width: auto;
+  }
 
-    .filters {
-        width:auto;
-    }
+  .filters h2 {
+    padding-left: 10px;
+  }
 
-    .filters h2 {
-        padding-left:10px;
-    }
+  .links {
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    float: none;
+    margin-left: 0px;
+    padding: 0px;
+    clear: both;
+  }
 
-    .links {
-        width:auto;
-        display:flex;
-        justify-content:space-between;
-        align-items:center;
-        float:none;
-        margin-left:0px;
-        padding:0px;
-        clear: both;
-    }
+  .intro {
+    width: auto;
+    font-size: 1.2em;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: -10px;
+  }
 
-    .intro {
-        width:auto;
-        font-size:1.2em;
-        padding-left:20px;
-        padding-right:20px;
-        margin-top: -10px;
-    }
+  .listelogements {
+    margin-top: 130px;
+  }
+  .intro h1 {
+    font-size: 1.5em;
+  }
 
-    .listelogements {
-        margin-top: 130px;
-    }
-    .intro h1 {
-        font-size:1.5em;
-    }
-
-    header {
-        width:auto;
-    }
-.inscription {
-    
-    float:right;
-}
+  header {
+    width: auto;
+  }
+  .inscription {
+    float: right;
+  }
 
   .link_active {
     border-top: none;
     border-bottom: solid #0065fc;
-    width:auto;
-    padding:0;
-    text-align:center;
-    width:100%;
+    width: auto;
+    padding: 0;
+    text-align: center;
+    width: 100%;
   }
 
   .activitieslink {
-      padding:0;
-      text-align:center;
-      border-bottom:solid #f2f2f2;
-      width:100%;
+    padding: 0;
+    text-align: center;
+    border-bottom: solid #f2f2f2;
+    width: 100%;
   }
 
   .listelogements {
-      margin-top:500px;
+    margin-top: 500px;
   }
 
   .popular {
-      display:flex;
-      flex-direction:column;
-      position:absolute;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-    border-radius:0px;
+    border-radius: 0px;
     margin-top: -480px;
-
   }
 
   .popularcolumn {
@@ -320,93 +316,92 @@
   }
 
   .popularblock {
-      width: 290px;
+    width: 290px;
   }
 
   .popular h1 {
-      font-size: 1.5em;
+    font-size: 1.5em;
   }
 
   .poputitle {
-      width:90%;
+    width: 90%;
   }
-
 
   .cityblock {
     position: absolute;
     margin-top: 130px;
-    background-color:white;
-    width:auto;
+    background-color: white;
+    width: auto;
   }
 
   .cityblock h1 {
-      font-size:1.5em;
-      margin-left: -20px;
+    font-size: 1.5em;
+    margin-left: -20px;
   }
 
   .locationlineone {
-      display:flex;
+    display: flex;
     flex-direction: column;
-    width:auto;
-    margin-right:auto;
-      margin-left:auto;
-    
+    width: auto;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .locationlinetwo {
-    display:flex;
+    display: flex;
     flex-direction: column;
-    width:auto;
-    padding-top:0px;
-    margin-right:auto;
-      margin-left:auto;
+    width: auto;
+    padding-top: 0px;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .locationblock {
-      width: 350px;
-      margin:0px;
-      margin-bottom:15px;
-      
+    width: 350px;
+    margin: 0px;
+    margin-bottom: 15px;
   }
 
   .locationblock img {
-      width: 335px;
+    width: 335px;
   }
   .infos {
     margin-top: 210px;
     padding-left: 10px;
-    font-size:1.2em;
+    font-size: 1.2em;
   }
 
   .activities {
-      margin-top:2080px;
-
+    margin-top: 2080px;
   }
 
   .activcolonnes {
     display: flex;
-    flex-direction:column;
-    width:350px;
-    margin-left:auto;
-    margin-right:auto;
+    flex-direction: column;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
-  .minactivities, .mainactivity, .frioul,
-  .pomegues, .act1 {
-      margin-bottom:15px;
+  .minactivities,
+  .mainactivity,
+  .frioul,
+  .pomegues,
+  .act1 {
+    margin-bottom: 15px;
   }
 
   .activities h2 {
-      font-size:1.2em;
+    font-size: 1.2em;
   }
 
   .activities h1 {
-      font-size:1.5em;
-      margin-left:15px;
+    font-size: 1.5em;
+    margin-left: 15px;
   }
   .activities img {
-      width: 350px;
-      height: 100px;
+    width: 350px;
+    height: 100px;
   }
 
   .minactivity img {
@@ -415,13 +410,15 @@
   }
 
   .footerlinks {
-      display:flex;
-      flex-direction:column;
-      width:auto;
+    display: flex;
+    flex-direction: column;
+    width: auto;
   }
 
-  .apropos, .noshebergements, .assistance {
-      margin-bottom:30px;
-      font-size:1.3em;
+  .apropos,
+  .noshebergements,
+  .assistance {
+    margin-bottom: 30px;
+    font-size: 1.3em;
   }
 }

@@ -93,7 +93,6 @@ input:focus {
   color: #0065fc;
 }
 
-
 .fas {
   color: #0065fc;
 }
@@ -116,7 +115,7 @@ a {
 
 .inscription {
   float: right;
-  padding-top:  12px;
+  padding-top: 12px;
 }
 
 .links {
@@ -136,18 +135,21 @@ a {
   border-top: solid #0065fc;
 }
 
-.fa-money-bill-wave, .fa-child, .fa-dog, .fa-heart {
+.fa-money-bill-wave,
+.fa-child,
+.fa-dog,
+.fa-heart {
   background-color: #deebff;
   border-radius: 50%;
-  padding:10px;
+  padding: 10px;
   font-size: 16px;
-  width:20px;
-  height:20px;
-  line-height:50px;
+  width: 20px;
+  height: 20px;
+  line-height: 50px;
 }
 
 .fa-child {
-  width:20px;
+  width: 20px;
   height: 20px;
   margin-left: -2px;
 }
@@ -181,10 +183,13 @@ a {
   display: flex;
   justify-content: flex-start;
   margin-left: 25px;
-  height:42px;
+  height: 42px;
 }
 
-.romantic, .famille, .eco, .animals {
+.romantic,
+.famille,
+.eco,
+.animals {
   margin-left: 25px;
   border: 1px solid #d9d9d9;
   border-radius: 30px;
@@ -197,9 +202,7 @@ a {
 }
 
 .animals {
-
   width: 190px;
-
 }
 
 .animals:hover,
@@ -290,7 +293,7 @@ a {
 }
 
 .locadetails h2 {
-    font-size: 1.1em;
+  font-size: 1.1em;
 }
 
 .locadetails a:visited {
@@ -367,10 +370,8 @@ a {
 }
 
 .populardetails h2 {
-   font-size:1em;
+  font-size: 1em;
 }
-
-
 
 .popular img {
   height: 130px;
@@ -398,7 +399,7 @@ a {
 }
 
 .popular a {
-    color:black;
+  color: black;
 }
 
 .poputitle {
@@ -426,25 +427,26 @@ a {
 }
 
 .activcolonnes {
-    display:flex;
-    justify-content:space-between;
-    width: 1230px;
-    padding-bottom: 50px;
-    padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  width: 1230px;
+  padding-bottom: 50px;
+  padding-top: 20px;
 }
 
 .mainactivity {
-    border-radius:10px;
-    background-color: white;
-    box-shadow: 2px 1px 10px rgb(199, 199, 199);
-    padding-bottom:25px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 2px 1px 10px rgb(199, 199, 199);
+  padding-bottom: 25px;
 }
 
-.act1, .act2 {
-    border-radius:10px;
-    background-color: white;
-    box-shadow: 2px 1px 10px rgb(199, 199, 199);
-    padding-bottom:25px;
+.act1,
+.act2 {
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 2px 1px 10px rgb(199, 199, 199);
+  padding-bottom: 25px;
 }
 
 .activities h1 {
@@ -453,11 +455,11 @@ a {
 }
 
 .activities h2 {
-    font-size: 1em;
+  font-size: 1em;
 }
 
 .activities a {
-    color:black;
+  color: black;
 }
 
 .mainactivity img {
@@ -467,78 +469,77 @@ a {
   border-radius: 10px 10px 0px 0px;
 }
 
-.longchamps, .notredame {
-    height: 100px;
-    width: 280px;
-    object-fit: cover;
+.longchamps,
+.notredame {
+  height: 100px;
+  width: 280px;
+  object-fit: cover;
 }
 
 .pomegues {
-    height: 125px;
-    width: 280px;
-    object-fit: cover;
+  height: 125px;
+  width: 280px;
+  object-fit: cover;
 }
 
 .frioul {
-height: 85px;
-width: 280px;
-object-fit: cover;
+  height: 85px;
+  width: 280px;
+  object-fit: cover;
 }
 
 .minactivities {
-    display:flex;
-    flex-direction:column;
-    justify-content:space-between;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .minactivities img {
-    object-fit: cover;
-    border-radius: 10px 10px 0px 0px;
+  object-fit: cover;
+  border-radius: 10px 10px 0px 0px;
 }
 
 .activities h2 {
-    padding-left: 15px;
-    padding-top: 15px;
-    font-weight: 800;
+  padding-left: 15px;
+  padding-top: 15px;
+  font-weight: 800;
 }
-
-
 
 /* ACTIVITIES */
 /* FOOTER */
 
 footer {
-    background-color: #F2F2F2;
+  background-color: #f2f2f2;
 }
 
 .footerlinks {
-    display:flex;
-    justify-content: space-between;
-    width: 950px;
-    padding: 40px;
+  display: flex;
+  justify-content: space-between;
+  width: 950px;
+  padding: 40px;
 }
 
 .footerlinks h2 {
-    font-size:1.1em;
-    font-weight:800;
+  font-size: 1.1em;
+  font-weight: 800;
 }
 
 .footerlinks a {
-    color:black;
+  color: black;
 }
 
 .apropos {
-    display:flex;
-    flex-direction:column;
+  display: flex;
+  flex-direction: column;
 }
 
 .noshebergements {
-    display:flex;
-    flex-direction:column;
+  display: flex;
+  flex-direction: column;
 }
 
 .assistance {
-    display:flex;
-    flex-direction:column;
+  display: flex;
+  flex-direction: column;
 }
 /* FOOTER */

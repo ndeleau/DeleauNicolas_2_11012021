@@ -25,6 +25,11 @@
 
   .filters {
     width: auto;
+    margin-left: 20px;
+  }
+
+  .barrerecherche {
+    margin-left: 20px;
   }
 
   .intro {

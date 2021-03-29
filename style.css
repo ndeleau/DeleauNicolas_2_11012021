@@ -85,10 +85,14 @@ input:focus {
 }
 
 .link_active a {
-  color: #0065fc;
+  color: black;
 }
 
 .link_active a:visited {
+  color: black;
+}
+
+.link_active a:hover {
   color: #0065fc;
 }
 
@@ -122,6 +126,10 @@ input:focus {
 
 .activitieslink a:visited {
   color:black;
+}
+
+.activitieslink a:hover {
+  color: #0065fc;
 }
 
 a {

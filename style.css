@@ -18,14 +18,13 @@ body {
   clear: both;
 }
 
-h1 {
-  font-weight: 1500;
+h2 {
   margin: 0;
   padding: 0;
   font-size: 25px;
 }
 
-h2 {
+h3 {
   font-size: 12px;
   margin: 0;
   padding: 0;
@@ -68,7 +67,7 @@ input:focus {
   margin: 0px;
   line-height: 50px;
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 1.2em;
   color: black;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
@@ -93,11 +92,27 @@ input:focus {
   color: #0065fc;
 }
 
-.fas {
+.iconfiltres {
+  color: #0065fc;
+  background-color: #deebff;
+  border-radius: 50%;
+  padding: 10px;
+  font-size: 16px;
+  width: 20px;
+  height: 20px;
+  line-height: 50px;
+  margin-top: -2px;
+}
+
+.starblue {
   color: #0065fc;
 }
 
-.far {
+.iconinfo {
+  color: #0065fc;
+}
+
+.starnone {
   color: #9e9e9e;
 }
 
@@ -139,22 +154,12 @@ a {
   color: #0065fc;
 }
 
-.link_active {
+.link_active:hover, .activitieslink:hover {
   border-top: solid #0065fc;
 }
 
-.fa-money-bill-wave,
-.fa-child,
-.fa-dog,
-.fa-heart {
-  background-color: #deebff;
-  border-radius: 50%;
-  padding: 10px;
-  font-size: 16px;
-  width: 20px;
-  height: 20px;
-  line-height: 50px;
-  margin-top: -2px;
+.link_active, .activitieslink {
+  border-top:solid white;
 }
 
 .fa-child {
@@ -234,8 +239,7 @@ a {
   color: #0065fc;
 }
 
-.filters h2 {
-  font-style: bold;
+.filters h3 {
   font-size: 20px;
 }
 
@@ -302,7 +306,7 @@ a {
   color: black;
 }
 
-.locadetails h2 {
+.locadetails h3 {
   font-size: 1.1em;
 }
 
@@ -318,14 +322,13 @@ a {
   border-top-right-radius: 15px;
 }
 
-.locationblock h1 {
+.locationblock h2 {
   margin: 0;
   padding: 0;
   line-height: normal;
 }
 
-.cityblock h1 {
-  font-weight: 900px;
+.cityblock h2 {
   padding-left: 40px;
   padding-top: 25px;
   font-size: 1.2em;
@@ -379,7 +382,7 @@ a {
   padding-top: 5px;
 }
 
-.populardetails h2 {
+.populardetails h3 {
   font-size: 1em;
 }
 
@@ -402,8 +405,7 @@ a {
   box-shadow: 2px 1px 10px rgb(199, 199, 199);
 }
 
-.popular h1 {
-  font-weight: 900px;
+.popular h2 {
   font-size: 1.2em;
   padding-right: 0px;
 }
@@ -459,12 +461,12 @@ a {
   padding-bottom: 25px;
 }
 
-.activities h1 {
+.activities h2 {
   font-size: 1.2em;
   font-weight: 800;
 }
 
-.activities h2 {
+.activities h3 {
   font-size: 1em;
 }
 
@@ -509,7 +511,7 @@ a {
   border-radius: 10px 10px 0px 0px;
 }
 
-.activities h2 {
+.activities h3 {
   padding-left: 15px;
   padding-top: 15px;
   font-weight: 800;
@@ -529,7 +531,7 @@ footer {
   padding: 40px;
 }
 
-.footerlinks h2 {
+.footerlinks h3 {
   font-size: 1.1em;
   font-weight: 800;
 }

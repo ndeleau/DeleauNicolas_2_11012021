@@ -31,6 +31,9 @@
   .barrerecherche {
     margin-left: 20px;
   }
+  .iconeloupe {
+    display:none !important;
+  }
 
   .intro {
     width: auto;
@@ -43,7 +46,7 @@
   .listelogements {
     margin-top: 130px;
   }
-  .intro h1 {
+  .intro h2 {
     font-size: 1.5em;
   }
 
@@ -66,7 +69,7 @@
     margin-top: -480px;
   }
 
-  .populardetails h2 {
+  .populardetails h3 {
     font-size: 1.3em;
   }
 
@@ -79,7 +82,7 @@
     width: 400px;
   }
 
-  .popular h1 {
+  .popular h2 {
     font-size: 1.5em;
   }
 
@@ -94,7 +97,7 @@
     width: auto;
   }
 
-  .cityblock h1 {
+  .cityblock h2 {
     font-size: 1.5em;
     margin-left: -20px;
   }
@@ -151,11 +154,11 @@
     margin-bottom: 15px;
   }
 
-  .activities h2 {
+  .activities h3 {
     font-size: 1.2em;
   }
 
-  .activities h1 {
+  .activities h2 {
     font-size: 1.5em;
     margin-left: 15px;
   }
@@ -185,8 +188,8 @@
 @media screen and (min-width: 768px) {
   /* Desktop */
 
-  .fa-search {
-    display: none;
+  .iconeloupe {
+    display:none !important;
   }
 }
 
@@ -213,7 +216,7 @@
     display: none;
   }
 
-  .fa-search {
+  .iconeloupe {
     color: white;
   }
 
@@ -247,7 +250,7 @@
     width: auto;
   }
 
-  .filters h2 {
+  .filters h3 {
     padding-left: 10px;
   }
 
@@ -273,7 +276,7 @@
   .listelogements {
     margin-top: 130px;
   }
-  .intro h1 {
+  .intro h2 {
     font-size: 1.5em;
   }
 
@@ -326,7 +329,7 @@
     margin-right: auto;
   }
 
-  .popular h1 {
+  .popular h2 {
     font-size: 1.5em;
   }
 
@@ -341,7 +344,7 @@
     width: auto;
   }
 
-  .cityblock h1 {
+  .cityblock h2 {
     font-size: 1.5em;
     margin-left: -20px;
   }
@@ -400,11 +403,11 @@
     margin-bottom: 15px;
   }
 
-  .activities h2 {
+  .activities h3 {
     font-size: 1.2em;
   }
 
-  .activities h1 {
+  .activities h2 {
     font-size: 1.5em;
     margin-left: 15px;
   }
